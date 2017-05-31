@@ -5782,13 +5782,13 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .dropdown-menu {
   position: absolute;
   top: 100%;
-  left: -5px;
+  left: -5;
   z-index: 1000;
   display: none;
   float: left;
   margin: 15px 0 0;
   list-style: none;
-  font-size: 14px;
+  font-size: 13px;
   text-transform: uppercase;
   text-align: center;
   background-color: #202020;
@@ -5798,7 +5798,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   -moz-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
   -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
-  width: 111px;
+  width: 150px;
   padding: 20px 15px 21px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -7808,6 +7808,22 @@ button.close {
 @-ms-viewport {
   width: device-width;
 }
+.video-container {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px; height: 0; overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
 .visible-xs,
 .visible-sm,
 .visible-md,
