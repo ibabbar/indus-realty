@@ -241,19 +241,19 @@
   display: none;
 }
 .camera_pag_ul li.pag_nav_0 {
-  background: url("../images/real-estate1.jpg") no-repeat #111111;
+  background: url("../images/realestatethumbnail1.jpg") no-repeat #111111;
 }
 .camera_pag_ul li.pag_nav_1 {
-  background: url("../images/real-estate2.jpg") no-repeat #111111;
+  background: url("../images/realestatethumbnail2.jpg") no-repeat #111111;
 }
 .camera_pag_ul li.pag_nav_2 {
-  background: url("../images/real-estate3.jpg") no-repeat #111111;
+  background: url("../images/realestatethumbnail3.jpg") no-repeat #111111;
 }
 .camera_pag_ul li.pag_nav_2 {
-  background: url("../images/real-estate4.jpg") no-repeat #111111;
+  background: url("../images/realestatethumbnail4.jpg") no-repeat #111111;
 }
 .camera_pag_ul li.pag_nav_2 {
-  background: url("../images/real-estate5.jpg") no-repeat #111111;
+  background: url("../images/realestatethumbnail5.jpg") no-repeat #111111;
 }
 @media (max-width: 1199px) {
   .camera_pag {
