@@ -7234,7 +7234,7 @@ a.list-group-item-danger.active:focus {
 }
 .well {
   padding-top: 100px;
-  padding-bottom: 85px;
+  padding-bottom: 25px;
 }
 @media (max-width: 1199px) {
   .well {
@@ -7243,10 +7243,10 @@ a.list-group-item-danger.active:focus {
 }
 .well1 {
   padding-top: 113px;
-  padding-bottom: 90px;
+  padding-bottom: 25px;
 }
 .well1__ins {
-  padding-bottom: 118px;
+  padding-bottom: 50px;
 }
 .well1__ins1 {
   padding-bottom: 152px;
