@@ -241,10 +241,10 @@
   display: none;
 }
 .camera_pag_ul li.pag_nav_0 {
-  background: url("../images/realestatethumbnail1.jpg") no-repeat #111111;
+  background: url("../images/realestate1thumbnail.jpg") no-repeat #111111;
 }
 .camera_pag_ul li.pag_nav_1 {
-  background: url("../images/realestatethumbnail2.jpg") no-repeat #111111;
+  background: url("../images/realestate2thumbnail.jpg") no-repeat #111111;
 }
 .camera_pag_ul li.pag_nav_2 {
   background: url("../images/realestatethumbnail3.jpg") no-repeat #111111;
