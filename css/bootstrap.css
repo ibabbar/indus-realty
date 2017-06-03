@@ -5840,6 +5840,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .dropdown-menu > li > a:hover {
   color: #727272 !important;
+  background-color: #ff9933;
 }
 .dropdown-menu li:before {
   display: none;
