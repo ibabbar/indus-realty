@@ -176,7 +176,7 @@
   color: #f1f1f1;
   line-height: 30px;
 }
-@media (min-width: 1200px) and (max-width: 1500px) {
+@media (min-width: 900) and (max-width: 15000px) {
   .camera_container .cam_cnt {
     top: 55%;
   }
