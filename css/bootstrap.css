@@ -2516,6 +2516,9 @@ ol li a {
 .inline-list li + li {
   margin-left: -2px;
 }
+.align_right {
+  text-align: right;
+}
 /*================      Flex list     =================*/
 /*================      Index list     =================*/
 /*==================  Marked List  ======================*/
