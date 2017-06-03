@@ -1781,7 +1781,7 @@ footer .footer_cnt {
   border-bottom: 1px solid #1d1d1d;
 }
 footer .footer_cnt .rights {
-  text-align: center;
+  text-align: right;
   font-weight: 400;
   color: #3c3c3c;
 }
