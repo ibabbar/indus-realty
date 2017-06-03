@@ -1781,7 +1781,7 @@ footer .footer_cnt {
   border-bottom: 1px solid #1d1d1d;
 }
 footer .footer_cnt .rights {
-  text-align: center;
+  text-align: right;
   font-weight: 400;
   color: #3c3c3c;
 }
@@ -7233,8 +7233,8 @@ a.list-group-item-danger.active:focus {
   padding-bottom: 75%;
 }
 .well {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 100px;
+  padding-bottom: 85px;
 }
 @media (max-width: 1199px) {
   .well {
@@ -7243,7 +7243,7 @@ a.list-group-item-danger.active:focus {
 }
 .well1 {
   padding-top: 113px;
-  padding-bottom: 0px;
+  padding-bottom: 90px;
 }
 .well1__ins {
   padding-bottom: 118px;
