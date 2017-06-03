@@ -2235,6 +2235,7 @@ fieldset[disabled] .bg-primary .btn-default:hover.active {
   -webkit-background-size: cover;
   background-size: cover;
 }
+
 .bg-img h1,
 .bg-img1 h1,
 .bg-img h2,
@@ -5799,7 +5800,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   -moz-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
   -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
-  width: 150px;
+  width: 250px;
   padding: 20px 15px 21px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
