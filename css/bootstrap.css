@@ -2520,6 +2520,7 @@ ol li a {
   text-align: right;
   align-content: right;
   align-items: right;
+  float: right;
 }
 .align_centreee {
   text-align: center;
