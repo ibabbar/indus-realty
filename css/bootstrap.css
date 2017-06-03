@@ -5918,7 +5918,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background: #ffffff;
   font-weight: 700;
   width: 103px;
-  padding: 17px 23px;
+  padding: 5px 5px;
   text-align: left;
 }
 .sf-menu > li > ul li ul.dropdown-menu li a {
