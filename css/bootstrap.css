@@ -2519,6 +2519,7 @@ ol li a {
 .align_right {
   text-align: right;
   align-content: right;
+  align-items: right;
 }
 /*================      Flex list     =================*/
 /*================      Index list     =================*/
