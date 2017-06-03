@@ -5791,7 +5791,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   list-style: none;
   font-size: 13px;
   text-transform: uppercase;
-  text-align: center;
+  text-align: left;
   background-color: #202020;
   font-family: 'Cabin', sans-serif;
   font-weight: 700;
