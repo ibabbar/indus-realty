@@ -130,11 +130,20 @@
         <section class="well1 bg-primary text-center">
             <div class="container">
 
-              <script type="text/javascript" src="https://www.google.com/jsapi">
-              </script>
-              <script type="text/javascript">
-                google.load("elements", "1", {packages : ["newsshow"]});
-              </script>
+              <GoogleCustomizations>
+  <CustomSearchEngine volunteers="false">
+
+    <Title>Product Review</Title>
+    <Description>Compare products features</Description>
+
+   <Context>
+      <BackgroundLabels>
+        <Label name="shopping_comparisons" mode="BOOST"/>
+      </BackgroundLabels>
+   </Context>
+
+  </CustomSearchEngine>
+</GoogleCustomizations>  
                 <h4>I'm the best in professional photography due <br/>
                     to the superior ability to catch life moments forever!</h4>
 
