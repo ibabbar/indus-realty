@@ -129,147 +129,18 @@
 
         <section class="well1 bg-primary text-center">
             <div class="google-news">
-              <feed gd:kind="customsearch#search" xmlns="http://www.w3.org/2005/Atom" xmlns:cse="http://schemas.google.com/cseapi/2010" xmlns:gd="http://schemas.google.com/g/2005" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">
-  <title>
-    string
-  </title>
-  <id xmlns:cse="http://schemas.google.com/cseapi/2010" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">
-    string
-    string
-    string
-    string
-    string
-    string
-    string
-  </id>
-  <author>
-    <name>
-      string
-    </name>
-  </author>
-  <updated>
-    datetime
-  </updated>
-  <opensearch:Url type="application/atom+xml" template="https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&safe={cse:safe?}&cx={cse:cx?}&sort={cse:sort?}&filter={cse:filter?}&gl={cse:gl?}&cr={cse:cr?}}&googlehost={cse:googleHost?}&c2coff={?cse:disableCnTwTranslation}&hq={cse:hq?}&hl={cse:hl?}&siteSearch={cse:siteSearch?}&siteSearchFilter={cse:siteSearchFilter?}&exactTerms={cse:exactTerms?}&excludeTerms={cse:excludeTerms?}&linkSite={cse:linkSite?}&orTerms={cse:orTerms?}&relatedSite={cse:relatedSite?}&dateRestrict={cse:dateRestrict?}&lowRange={cse:lowRange?}&highRange={cse:highRange?}&searchType={cse:searchType?}&fileType={cse:fileType?}&rights={cse:rights?}&imgsz={cse:imgsz?}&imgtype={cse:imgtype?}&imgc={cse:imgc?}&imgcolor={cse:imgcolor?}&alt=atom"/>
-  (foreach)
-    <opensearch:Query role="string" title="string" totalResults="long" searchTerms="string" count="integer" startIndex="integer" startPage="integer" language="string" inputEncoding="string" outputEncoding="string" cse:safe="string" cse:cx="string" cse:sort="string" cse:filter="string" cse:gl="string" cse:cr="string" cse:googleHost="string" cse:disableCnTwTranslation="string" cse:hq="string" cse:hl="string" cse:siteSearch="string" cse:siteSearchFilter="string" cse:exactTerms="string" cse:excludeTerms="string" cse:linkSite="string" cse:orTerms="string" cse:relatedSite="string" cse:dateRestrict="string" cse:lowRange="string" cse:highRange="string" cse:fileType="string" cse:rights="string" cse:searchType="string" cse:imgSize="string" cse:imgType="string" cse:imgColorType="string" cse:imgDominantColor="string" xmlns:cse="http://schemas.google.com/cseapi/2010" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/"/>
-  (/foreach)
-  <opensearch:totalResults>
-    long
-  </opensearch:totalResults>
-  <opensearch:startIndex>
-    integer
-  </opensearch:startIndex>
-  (foreach)
-    <cse:promotion xmlns:cse="http://schemas.google.com/cseapi/2010">
-      <title type="html">
-        string
-      </title>
-      <displayTitle type="html">
-        string
-      </displayTitle>
-      <link href="string" title="string"/>
-      (foreach)
-        <cse:bodyLine title="string" displayTitle="string" url="string" link="string"/>
-      (/foreach)
-      <cse:image src="string" height="integer" width="integer"/>
-    </cse:promotion>
-  (/foreach)
-  <cse:context title="string" xmlns:cse="http://schemas.google.com/cseapi/2010">
-    (foreach)
-      <cse:facet>
-        (foreach)
-          <cse:item label="string" anchor="string"/>
-        (/foreach)
-      </cse:facet>
-    (/foreach)
-  </cse:context>
-  <cse:searchInformation>
-    <cse:searchTime>
-      double
-    </cse:searchTime>
-    <cse:formattedSearchTime>
-      string
-    </cse:formattedSearchTime>
-    <cse:totalResults>
-      long
-    </cse:totalResults>
-    <cse:formattedTotalResults>
-      string
-    </cse:formattedTotalResults>
-  </cse:searchInformation>
-  <cse:spelling>
-    <cse:correctedQuery type="html">
-      string
-    </cse:correctedQuery>
-  </cse:spelling>
-  (foreach)
-    <entry gd:kind="customsearch#result" xmlns:cse="http://schemas.google.com/cseapi/2010" xmlns:gd="http://schemas.google.com/g/2005">
-      <id>
-        string
-      </id>
-      <updated>
-        datetime
-      </updated>
-      <title type="html">
-        string
-      </title>
-      <link href="string" title="string"/>
-      <summary type="html">
-        string
-      </summary>
-      <cse:cacheId>
-        string
-      </cse:cacheId>
-      <cse:mime>
-        string
-      </cse:mime>
-      <cse:fileFormat>
-        string
-      </cse:fileFormat>
-      <cse:formattedUrl type="html">
-        string
-      </cse:formattedUrl>
-      <cse:PageMap>
-        (foreach)
-          <cse:DataObject type="string">
-            (foreach)
-              <cse:Attribute name="string" value="string"/>
-            (/foreach)
-          </cse:DataObject>
-        (/foreach)
-      </cse:PageMap>
-      <cse:Labels>
-        (foreach)
-          <cse:Label name="string" displayName="string"/>
-        (/foreach)
-      </cse:Labels>
-      <cse:Image>
-        <cse:contextLink>
-          string
-        </cse:contextLink>
-        <cse:height>
-          integer
-        </cse:height>
-        <cse:width>
-          integer
-        </cse:width>
-        <cse:byteSize>
-          integer
-        </cse:byteSize>
-        <cse:thumbnailLink>
-          string
-        </cse:thumbnailLink>
-        <cse:thumbnailHeight>
-          integer
-        </cse:thumbnailHeight>
-        <cse:thumbnailWidth>
-          integer
-        </cse:thumbnailWidth>
-      </cse:Image>
-    </entry>
-  (/foreach)
-</feed>
+              <script>
+                (function() {
+                  var cx = '001194932123679886426:luwojjumsfi';
+                  var gcse = document.createElement('script');
+                  gcse.type = 'text/javascript';
+                  gcse.async = true;
+                  gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+                  var s = document.getElementsByTagName('script')[0];
+                  s.parentNode.insertBefore(gcse, s);
+                })();
+                </script>
+                <gcse:search></gcse:search>
             </div>
         </section>
         <section class="well1 well1__ins">
