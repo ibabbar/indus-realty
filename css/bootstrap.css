@@ -5947,6 +5947,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   line-height: 1.44444444;
   color: #cfcfcf;
   white-space: nowrap;
+  background-color: #ff9933;
 }
 .dropdown-backdrop {
   position: fixed;
@@ -5955,6 +5956,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   bottom: 0;
   top: 0;
   z-index: 990;
+  background-color: #000000;
 }
 .pull-right > .dropdown-menu {
   right: 0;
@@ -6058,7 +6060,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .pagination > .disabled > a:hover,
 .pagination > .disabled > a:focus {
   color: #cfcfcf;
-  background-color: #ffffff;
   border-color: #dddddd;
   cursor: not-allowed;
 }
