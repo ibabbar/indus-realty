@@ -5839,7 +5839,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   color: #ffffff;
 }
 .dropdown-menu > li > a:hover {
-  background-color: #ff9933;
   color: #727272 !important;
 }
 .dropdown-menu li:before {
@@ -5855,7 +5854,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .dropdown-menu > li > a:focus {
   text-decoration: none;
   color: #ffffff;
-  background-color: transparent;
+  background-color: #000000;
 }
 .dropdown-menu > .active > a,
 .dropdown-menu > .sfHover > a,
@@ -5866,7 +5865,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   color: #ffffff;
   text-decoration: none;
   outline: 0;
-  background-color: transparent;
+  background-color: #ff9933;
 }
 .dropdown-menu > .disabled > a,
 .dropdown-menu > .disabled > a:hover,
