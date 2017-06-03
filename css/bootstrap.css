@@ -7234,7 +7234,7 @@ a.list-group-item-danger.active:focus {
 }
 .well {
   padding-top: 5px;
-  padding-bottom: 25px;
+  padding-bottom: 80px;
 }
 @media (max-width: 1199px) {
   .well {
