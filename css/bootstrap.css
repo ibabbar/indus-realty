@@ -5790,7 +5790,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   float: left;
   margin: 15px 0 0;
   list-style: none;
-  font-size: 13px;
+  font-size: 16px;
   text-transform: uppercase;
   text-align: left;
   background-color: #202020;
@@ -5839,7 +5839,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   color: #ffffff;
 }
 .dropdown-menu > li > a:hover {
-  background-color: #ff9933!important;
+  color: #ffffff !important;
+  background-color: #ff9933 !important;
 }
 .dropdown-menu li:before {
   display: none;
