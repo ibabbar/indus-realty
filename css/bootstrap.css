@@ -5786,7 +5786,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   outline: 0;
 }
 .dropdown-menu {
-  position: relative;
+  position: absolute;
   top: 100%;
   left: -5;
   z-index: 1000;
