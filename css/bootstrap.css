@@ -2720,6 +2720,7 @@ blockquote.pull-right .small:after {
 }
 address {
   font-style: normal;
+  align-items: center;
 }
 .bord {
   border: 1px solid #dadada;
