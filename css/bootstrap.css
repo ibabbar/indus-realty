@@ -2518,6 +2518,7 @@ ol li a {
 }
 .align_right {
   text-align: right;
+  align-content: right;
 }
 /*================      Flex list     =================*/
 /*================      Index list     =================*/
