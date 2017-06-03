@@ -2521,6 +2521,9 @@ ol li a {
   align-content: right;
   align-items: right;
 }
+.align_centreee {
+  text-align: center;
+}
 /*================      Flex list     =================*/
 /*================      Index list     =================*/
 /*==================  Marked List  ======================*/
