@@ -3057,6 +3057,10 @@ pre code {
   padding-left: 15px;
   padding-right: 15px;
 }
+.borderit {
+  border-color: #ffffff;
+  border-style: solid;
+}
 @media (min-width: 768px) {
   .container {
     width: 750px;
