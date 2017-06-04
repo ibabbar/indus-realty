@@ -3071,7 +3071,7 @@ pre code {
   padding: 5px;
 }
 .padItAlittle:hover {
-    background-color: #ff9933;
+    color: #ff9933;
     border-color: #fff;
   }
 }
