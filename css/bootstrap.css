@@ -188,7 +188,7 @@ th {
 }
 
 /* login/sign up css */
-.box {
+.loginbox {
   position: relative;
   width: 110px;
   height: 40px;
@@ -199,7 +199,7 @@ th {
   color:#ff9933;
 }
 
-.item {
+.loginshit {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 14px;
@@ -212,7 +212,7 @@ th {
 
 
 // Style one
-.one {
+.loginone {
   &:before,
   &:after {
     position: absolute;
@@ -231,7 +231,7 @@ th {
     bottom: 0;
   }
 
-  .item {
+  .loginshit {
     &:before,
     &:after {
       position: absolute;
@@ -267,7 +267,7 @@ th {
       transform: translateY(10px);
     }
 
-    .item {
+    .loginshit {
       color: white;
       &:before,
       &:after {
