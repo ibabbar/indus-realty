@@ -3068,6 +3068,12 @@ pre code {
 .borderit {
   border-color: #ffffff;
   border-style: solid;
+  padding: 3px;
+}
+.padItAlittle:hover {
+    background-color: #1d1d1d;
+    border-color: #1d1d1d;
+  }
 }
 @media (min-width: 768px) {
   .container {
