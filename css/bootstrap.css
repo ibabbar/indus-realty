@@ -3068,11 +3068,11 @@ pre code {
 .borderit {
   border-color: #ffffff;
   border-style: solid;
-  padding: 3px;
+  padding: 5px;
 }
 .padItAlittle:hover {
-    background-color: #1d1d1d;
-    border-color: #1d1d1d;
+    background-color: #ff9933;
+    border-color: #fff;
   }
 }
 @media (min-width: 768px) {
