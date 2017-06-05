@@ -8346,6 +8346,7 @@ background text
 }
 
 .cont_form_login {
+  padding-top: 100 px;
   position: absolute;
   opacity: 0;
   display: none;
