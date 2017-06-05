@@ -320,6 +320,7 @@ background text
   -webkit-transform: translateY(+45%);
   -ms-transform: translateY(+45%);
   transform: translateY(+45%);
+  padding-right: 15px;
 }
 
 .cont_forms_active_login {
@@ -339,9 +340,10 @@ background text
   -ms-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
-  -webkit-transform: translateY(+10%);
-  -ms-transform: translateY(+10%);
-  transform: translateY(+10%);
+  -webkit-transform: translateY(+8%);
+  -ms-transform: translateY(+8%);
+  transform: translateY(+8%);
+  padding-right: 15px;
 }
 
 
