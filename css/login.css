@@ -75,6 +75,7 @@
   transition: all 0.5s;
     border-color: #ff9933;
     border-style: solid;
+    align-content: : center;
 }
 
 .cont_forms_active_sign_up {
@@ -89,6 +90,7 @@
   transition: all 0.5s;
     border-color: #ff9933;
     border-style: solid;
+    align-items: center;
 }
 
 .cont_img_back_grey {
