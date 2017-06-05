@@ -2524,6 +2524,8 @@ ol li a {
 }
 .align_centreee {
   text-align: center;
+  align-content: center;
+  align-items: center;
 }
 /*================      Flex list     =================*/
 /*================      Index list     =================*/
@@ -8231,12 +8233,12 @@ height: 100%;
   width: 50%;
 }
 
-.cont_ba_opcitiy>h2 {
+.>h2 {
   font-weight: 400;
   color: #fff;
 }
 
-.cont_ba_opcitiy>p {
+.>p {
   font-weight: 400;
   margin-top: 15px;
   color: #fff;
@@ -8247,18 +8249,14 @@ height: 100%;
 background text
 ------------------------------------
  */
- .loginshit {
-   margin: 0px auto;
-   padding: 0px;
-   text-align: center;
-   font-family: 'Open Sans', sans-serif;
- }
-.cont_ba_opcitiy {
+
+. {
   position: relative;
   background-color: rgba(120, 144, 156, 0.55);
   width: 80%;
-  border-radius: 3px;
-  margin-top: 60px;
+  border-radius: 30px;
+  margin-top: 30px;
+  margin-left: 25px;
   padding: 15px 0px;
 }
 
