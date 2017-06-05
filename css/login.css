@@ -346,6 +346,9 @@ background text
   padding-right: 15px;
 }
 
+.goBlackNeverGoBack {
+  color: #000;
+}
 
 .cont_form_sign_up>input {
   text-align: left;
