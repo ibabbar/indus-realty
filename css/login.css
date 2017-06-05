@@ -73,6 +73,8 @@
   -ms-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
+    border-color: #ff9933;
+    border-style: solid;
 }
 
 .cont_forms_active_sign_up {
@@ -85,6 +87,8 @@
   -ms-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
+    border-color: #ff9933;
+    border-style: solid;
 }
 
 .cont_img_back_grey {
