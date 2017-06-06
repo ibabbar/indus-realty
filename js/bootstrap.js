@@ -2324,6 +2324,10 @@ function cambiar_login() {
   document.querySelector('.cont_forms').className = "cont_forms cont_forms_active_login";
 document.querySelector('.cont_form_login').style.display = "block";
 document.querySelector('.cont_form_sign_up').style.opacity = "0";
+document.getElementById('log_in_btn').onclick = function() {
+    document.getElementById("log_in_btn").onclick="404.html";
+    return false;
+  };
 
 setTimeout(function(){  document.querySelector('.cont_form_login').style.opacity = "1"; },400);
 
@@ -2335,8 +2339,11 @@ document.querySelector('.cont_form_sign_up').style.display = "none";
 function cambiar_sign_up(at) {
   document.querySelector('.cont_forms').className = "cont_forms cont_forms_active_sign_up";
   document.querySelector('.cont_form_sign_up').style.display = "block";
-document.querySelector('.cont_form_login').style.opacity = "0";
-
+  document.querySelector('.cont_form_login').style.opacity = "0";
+  document.getElementById('sign_up_btn').onclick = function() {
+    document.getElementById('sign_up_btn').onclick="404.html";
+    return false;
+  }
 setTimeout(function(){  document.querySelector('.cont_form_sign_up').style.opacity = "1";
 },100);
 
