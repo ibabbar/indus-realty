@@ -4954,7 +4954,7 @@ fieldset[disabled] .btn-link {
 fieldset[disabled] .btn-link:hover,
 .btn-link[disabled]:focus,
 fieldset[disabled] .btn-link:focus {
-  color: #cfcfcf;
+  color: #ffffff;
   text-decoration: none;
 }
 .btn-link[disabled]:hover:before,
