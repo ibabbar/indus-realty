@@ -3076,6 +3076,10 @@ pre code {
   color: #fff;
 }
 
+.greyItUp {
+  color:#9a9a9a;
+}
+
 @media (min-width: 768px) {
   .container {
     width: 750px;
