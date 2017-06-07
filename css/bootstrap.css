@@ -2731,6 +2731,7 @@ blockquote.pull-right .small:after {
 address {
   font-style: normal;
   align: center;
+  color: #fff;
 }
 .bord {
   border: 1px solid #dadada;

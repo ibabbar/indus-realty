@@ -392,6 +392,14 @@ background text
   margin-left: 30px;
 }
 
+.whiteItUp {
+  color: #fff;
+}
+
+.leftItUp {
+  align-items: left;
+}
+
 .backgroundGradient {
   background: rgb(106,106,109); /* Old browsers */
   background: -moz-linear-gradient(-45deg, rgba(106,106,109,1) 0%, rgba(86,86,89,1) 0%, rgba(86,86,89,1) 0%, rgba(63,76,107,1) 33%, rgba(63,76,107,1) 66%, rgba(86,86,89,1) 100%, rgba(86,86,89,1) 100%); /* FF3.6-15 */
