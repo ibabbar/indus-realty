@@ -4922,7 +4922,7 @@ fieldset[disabled] .btn-danger:focus.active {
   left: 0;
 }
 .btn-link:focus {
-  color: inherit;
+  color: #ffffff;
   font-size: inherit;
 }
 .btn-link,
