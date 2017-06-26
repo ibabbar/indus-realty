@@ -1,0 +1,169 @@
+/* Eric Meyer's CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background-color: #3F4C6B;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End of Eric Meyer's CSS Reset */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+body {
+	font: 12px/18px Arial, sans-serif;
+}
+.wrapper {
+	width: 100%;
+
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+.header {
+	height: auto;
+
+}
+		@font-face {
+			font-family: font;
+			src: url(glyphiconshalflingsregular.woff);
+		}
+.header h3{
+			margin-top: 30px;
+			font-size: 30px;
+			line-height: 1.1;
+			font-family: font;
+			text-transform: uppercase;
+			font-weight: 700;
+			color: #fff;	
+			text-align: center;
+		}
+.header p{
+			margin-top: 38px;
+			color: #fff;
+			line-height: 30px;
+			font-family: 'Roboto', sans-serif;
+			font-size: 18px;
+			text-align: center;
+		}	
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.middle {
+	width: 100%;
+	position: relative;
+}
+.middle:after {
+	display: table;
+	clear: both;
+	content: '';
+}
+.container {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+}
+.content {
+	padding: 0 160px 0 160px;
+	max-width: 800px;
+	margin: auto;
+}
+
+
+/* Left Sidebar
+-----------------------------------------------------------------------------*/
+.left-sidebar {
+	float: left;
+	width: 200px;
+	margin-left: -99%;
+	position: relative;
+	margin-top: 4%;
+	
+
+}
+
+.left-sidebar .box {
+	font-size: 14px;
+	line-height: 1.1;
+	font-family: 'Cabin', sans-serif;
+	color: #fff;	
+	  border-radius: 4px;
+	  box-shadow: rgba(0,0,0,1.2) 0px 1px 3px;
+	  margin-bottom: 90px;
+	  min-height: 80px;
+
+}
+.left-sidebar .box p {
+  padding: 3em 0;
+  text-align: center;
+}
+
+/* Right Sidebar
+-----------------------------------------------------------------------------*/
+.right-sidebar {
+	float: left;
+	width: 200px;
+	margin-left: -215px;
+	position: relative;
+	margin-top: 4%
+}
+
+.right-sidebar .box {
+	font-size: 14px;
+	line-height: 1.1;
+	font-family: 'Cabin', sans-serif;
+	color: #fff;	
+	  border-radius: 4px;
+	  box-shadow: rgba(0,0,0,1.2) 0px 1px 3px;
+	  margin-bottom: 90px;
+	  min-height: 80px;
+
+}
+.right-sidebar .box p {
+  padding: 3em 0;
+  text-align: center;
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+ svg {
+    width: 100%; 
+  }
+}
