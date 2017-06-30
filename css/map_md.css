@@ -107,7 +107,14 @@ body {
 	max-width: 800px;
 	margin: auto;
 }
-
+.left{
+	width: 48%;
+	float: left;
+}
+.right {
+	width: 48%
+	float: right;
+}
 
 /* Left Sidebar
 -----------------------------------------------------------------------------*/
