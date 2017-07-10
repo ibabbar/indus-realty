@@ -7,18 +7,20 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="format-detection" content="telephone=no"/>
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    <title>Learn</title>
+    <title>Indus Realty | Services</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
 
     <!-- Links -->
+    <link rel="stylesheet" href="css/smartadmin-production.min.css"/>
+    <link rel="stylesheet" href="css/smartadmin-skins.min.css"/>
     <link rel="stylesheet" href="css/mailform.css"/>
     <link rel="stylesheet" href="css/material-design.css"/>
     <link href="css/mailform.css" rel="stylesheet">
     <link href="css/subscribe.css" rel="stylesheet">
     <link href="css/google-map.css" rel="stylesheet">
-    <link href="css/jquery.fancybox.css" rel="stylesheet">
+    <link href="css/login.css" rel="stylesheet">
 
     <!--JS-->
     <script src="js/jquery.js"></script>
@@ -131,23 +133,121 @@
     =========================================================-->
 
     <main>
-        <section class="well1 bg-primary text-center backgroundGradient borderit">
-          <div class = "rss_feed">
-            <!-- start feedwind code -->
-            <script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" data-fw-param="31310/">
-            </script> <!-- end feedwind code -->
-          <script type="text/javascript" src="http://feed.surfing-waves.com/js/rss-feed.js"></script>
-          <!-- The link below helps keep this service FREE, and helps other people find the SW widget. Please be cool and keep it! Thanks. -->
-          <!-- end sw-rss-feed code -->
-        </div>
 
-        </section>
-        <section class="well1 bg-primary backgroundGradient borderit">
-          <div class = "container">
-              <h3 class="text-center">Why Real Estate?</h3>
+        <section class="well1 well1__ins bg-primary borderit backgroundGradient">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-10 col-sm-12 col-xs-12 col-md-offset-1">
+                      <blockquote class="media">
+                          <div class="media-left media-left">
+                              <img class="media-object img-circle" src="images/real_estate1.jpg" alt="">
+                          </div>
+                          <div class="media-body">
+                              <cite class="media-heading h3">Services Overview</cite>
+
+                              <p class="l-height p_mod">Indus Realty is backed by Taylor Properties
+a brokerage with over 30 years of experience, 
+590 Active Agents and Over a 1000 Transactions per
+ Year in Maryland Virginia and Washington D.C.
+
+</br></br>Taylor Properties Phone Number: <i>+(1800) 913-4326</i>
+By working with <b>Indus Realty</b>, you will have an agent
+Licensed with the National Association of Realtors,
+Maryland Association of Realtors and well versed in
+Fair Housing Practices.
+
+                              </p>
+                              <a class="btn-link" href="services.html">more</a>
+                          </div>
+                      </blockquote>
+                  </div>
+              </div>
           </div>
         </section>
+        <section class="well1 well1__ins bg-primary borderit backgroundGradient">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-10 col-sm-12 col-xs-12 col-md-offset-1">
+                      <blockquote class="media">
+                          <div class="media-left media-left">
+                              <img class="media-object img-circle" src="images/real_estate1.jpg" alt="">
+                          </div>
+                          <div class="media-body">
+                              <cite class="media-heading h3">Buyer's Representation</cite>
 
+                              <p class="l-height p_mod">Indus Realty will guide you through the buying process. </br>
+We will choose investment opportunities that meet your required rate of return and risk profile. 
+</br>Our investment engine will perform analysis and create a cash flow model so that you know exactly how much income and expenses you will incur peer month. ( Leave space for a “Learn More About Our Engine Button”)
+</br>We will work with you through the real estate and prepare the best offer possible in terms of built in protections and offer price.  
+</br>We also have an extensive list of home inspectors, mortgage lenders, settlement companies, and property managers who we will work with to ensure you have a team that has your best interests in mind. 
+
+</br>The best part of our buyer’s representation is that is completely free to you the client as the commission is a fee paid by the seller at closing.
+                              </p>
+                              <div class="cont_centrar align_centreee backgroundGradient borderit">
+      <div class="cont_login">
+        <div class="cont_info_log_sign_up">
+          <div> </br> </div>
+          <div> </br> </div>
+          <div> </br> </div>
+          <div class="col_md_login">
+            <div class="cont_ba_opcitiy">
+              <h4>LOG IN</h4>
+              <p>Welcome Back Indusians</p>
+              <button id = "log_in_btn" class="btn_login" onclick="cambiar_login()">LOGIN</button>
+            </div>
+          </div>
+          <div class="col_md_sign_up">
+            <div class="cont_ba_opcitiy">
+              <h4>SIGN UP</h4>
+
+
+              <p>Join us</p>
+
+              <button id = "sign_up_btn" class="btn_sign_up" onclick="cambiar_sign_up()">SIGN UP</button>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="cont_back_info">
+          <div class="cont_img_back_grey">
+            <img src="https://images.unsplash.com/42/U7Fc1sy5SCUDIu4tlJY3_NY_by_PhilippHenzler_philmotion.de.jpg?ixlib=rb-0.3.5&q=50&fm=jpg&crop=entropy&s=7686972873678f32efaf2cd79671673d" alt="" />
+          </div>
+
+        </div>
+        <div class="cont_forms">
+          <div class="cont_img_back_">
+            <img src="https://images.unsplash.com/42/U7Fc1sy5SCUDIu4tlJY3_NY_by_PhilippHenzler_philmotion.de.jpg?ixlib=rb-0.3.5&q=50&fm=jpg&crop=entropy&s=7686972873678f32efaf2cd79671673d" alt="" />
+          </div>
+          <div class="cont_form_login">
+            <a href="#" onclick="ocultar_login_sign_up()"><img class="goBlackNeverGoBack" src="images/back_top.png"></img></a>
+            <h4 class="align_centreee">LOGIN</h4>
+            <input type="text" placeholder="Email" />
+            <input type="password" placeholder="Password" />
+            <button class="login btn_login align_centreee" onclick="cambiar_login()">LOGIN</button>
+          </div>
+
+          <div class="cont_form_sign_up">
+            <a href="#" onclick="ocultar_login_sign_up()"><img class="goBlackNeverGoBack" src="images/back_top.png"></img></a>
+            <h4 class="align_centreee">SIGN UP</h4>
+            <input type="text" placeholder="Email" />
+            <input type="text" placeholder="User" />
+            <input type="password" placeholder="Password" />
+            <input type="password" placeholder="Confirm Password" />
+            <button class="login btn_sign_up align_centreee" onclick="cambiar_sign_up()">SIGN UP</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+</div>
+
+                          </div>
+                      </blockquote>
+                  </div>
+              </div>
+          </div>
+        </section>
     </main>
 
     <!--========================================================
