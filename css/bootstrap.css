@@ -2224,6 +2224,9 @@ fieldset[disabled] .bg-primary .btn-default:hover.active {
 .bg-img1 {
   background: url("../images/bg2.jpg") no-repeat #2b2f3a center bottom;
 }
+.bg-imgSellersRepresentation {
+  background: url("../images/buyer-seller-representation.jpg") no-repeat #2b2f3a center bottom;
+}
 @media (max-width: 991px) {
   .bg-img1 {
     background-position: right bottom;
